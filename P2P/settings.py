@@ -145,9 +145,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'p2p',
-        'USER': 'admin',
+        'USER': '',
         'PASSWORD': 'P2Ppass1234',
-        'HOST': 'database.cdskkajcicnd.us-east-1.rds.amazonaws.com',
+        'HOST': 'p2pdata.cdskkajcicnd.us-east-1.rds.amazonaws.comm',
         'PORT': '5432',
     }
 }
