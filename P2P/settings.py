@@ -140,18 +140,18 @@ DATABASES = {
     }
 }
 '''
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'p2pdb',
-        'USER': 'peash',
-        'PASSWORD': 'YJj9TXmTIciWyk5gxA48GFESbX88GjMs',
-        'HOST': 'dpg-ci4crfunqql46qqvp2eg-a',
+        'NAME': 'p2p',
+        'USER': 'admin',
+        'PASSWORD': 'P2Ppass1234',
+        'HOST': 'database.cdskkajcicnd.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
-'''
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -255,11 +255,10 @@ CORS_ALLOWED_ORIGINS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-
-
+'''
 import dj_database_url as djurl
 DATABASES={
     'default':djurl.parse('postgres://peash:xwMlohes1ZJvJwoCT1PHcxUQRMzKzQZr@dpg-cjsu542bgj9c73cf4eqg-a.singapore-postgres.render.com/ppp_th8n')
 }
 
-
+'''
