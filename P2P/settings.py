@@ -144,10 +144,10 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'p2p',
-        'USER': '',
+        'NAME': 'p2pdata',
+        'USER': 'p2p',
         'PASSWORD': 'P2Ppass1234',
-        'HOST': 'p2pdata.cdskkajcicnd.us-east-1.rds.amazonaws.comm',
+        'HOST': 'p2pdata.cdskkajcicnd.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
